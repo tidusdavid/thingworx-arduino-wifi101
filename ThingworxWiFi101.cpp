@@ -34,7 +34,7 @@ appKey: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 MY_PARAM1=123&MY_PARAM2=abc
 ************************************************************************************************************/
 
-#include "ThingWorxWiFi101.h"
+#include "ThingworxWiFi101.h"
 
 ThingWorx::ThingWorx(char* server, int port, char* appKey, char* thingName, char* serviceName) {
   _server = server;
